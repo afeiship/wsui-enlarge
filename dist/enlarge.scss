@@ -1,0 +1,18 @@
+/*webkit-sassui-enlarge Start*/
+.enlarge{
+  position: relative;
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+  }
+}
+@mixin enlarge($inValue:6px) {
+  &:after {
+    left: -$inValue;
+    top: -$inValue;
+    bottom: -$inValue;
+    right: -$inValue;
+  }
+}
+/*webkit-sassui-enlarge End*/
