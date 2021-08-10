@@ -1,0 +1,32 @@
+/*wsui-enlarge Start*/
+.wsui-enlarge:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.wsui-enlarge[data-value="small"]:after {
+  left: -6px;
+  top: -6px;
+  bottom: -6px;
+  right: -6px;
+}
+
+.wsui-enlarge[data-value="normal"]:after {
+  left: -10px;
+  top: -10px;
+  bottom: -10px;
+  right: -10px;
+}
+
+.wsui-enlarge[data-value="large"]:after {
+  left: -16px;
+  top: -16px;
+  bottom: -16px;
+  right: -16px;
+}
+
+/*wsui-enlarge End*/
+.test-wsui-enlarge {
+  border: 1px solid red;
+}

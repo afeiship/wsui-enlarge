@@ -1,0 +1,29 @@
+/*wsui-enlarge Start*/
+$wsui-enlarge-options: (
+  value: (
+    small: -6px,
+    normal: -10px,
+    large: -16px,
+  ),
+) !default;
+
+.wsui-enlarge {
+  $value: map-get($wsui-enlarge-options, value);
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+
+  @each $name, $distance in $value {
+    &[data-value="#{$name}"] {
+      &:after {
+        left: $distance;
+        top: $distance;
+        bottom: $distance;
+        right: $distance;
+      }
+    }
+  }
+}
+/*wsui-enlarge End*/

@@ -1,5 +1,0 @@
-@import "../dist/enlarge.scss";
-.test-enlarge{
-  @extend .enlarge;
-  @include enlarge(10px);
-}
