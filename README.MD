@@ -20,18 +20,15 @@ npm i @jswork/wsui-enlarge
 ```
 
 ```html
-  <style>
-    button{
-      position: relative;
-    }
-  </style>
-</head>
+<style>
+  button{
+    position: relative;
+  }
+</style>
 
-<body>
-  <p><button class="wsui-enlarge" data-value="small" type="button">我是可点击区域 data-value="small"</button></p>
-  <p><button class="wsui-enlarge" data-value="normal" type="button">我是可点击区域 data-value="normal"</button></p>
-  <p><button class="wsui-enlarge" data-value="large" type="button">我是可点击区域 data-value="large"</button></p>
-</body>
+<p><button class="wsui-enlarge" data-value="small" type="button">我是可点击区域 data-value="small"</button></p>
+<p><button class="wsui-enlarge" data-value="normal" type="button">我是可点击区域 data-value="normal"</button></p>
+<p><button class="wsui-enlarge" data-value="large" type="button">我是可点击区域 data-value="large"</button></p>
 ```
 
 ## preview
